@@ -1,0 +1,46 @@
+{
+  "name": "react-faq",
+  "description": "A collection of links to help answer your questions about React.js",
+  "version": "1.0.0",
+  "author": "Tim Arney <tim@line37.com>",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "front-matter": "^2.1.2",
+    "gatsby": "^0.12.36",
+    "highlight.js": "^9.8.0",
+    "history": "^2.0.2",
+    "js-yaml": "^3.8.1",
+    "markdown-it": "^7.0.1",
+    "markdown-it-abbr": "^1.0.3",
+    "markdown-it-attrs": "^0.6.3",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "object-assign": "^4.1.1",
+    "react-ga": "^2.1.2",
+    "react-headroom": "^2.1.2",
+    "react-helmet": "^3.2.2",
+    "react-responsive-grid": "^0.3.3",
+    "react-typography": "^0.15.0",
+    "styled-components": "1.4.3",
+    "toml-js": "0.0.8",
+    "typography": "^0.15.8",
+    "typography-plugin-code": "^0.15.0",
+    "unfetch": "2.1.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-links && gh-pages -d public",
+    "develop": "gatsby develop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timarney/react-faq"
+  }
+}
